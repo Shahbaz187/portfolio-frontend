@@ -44,7 +44,7 @@ const Projects = () => {
             <div className="mt-4">
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
-                href="https://shahbaz-chi.vercel.app/contact"
+                href="/contact"
               >
                 Contact us
               </a>
@@ -67,7 +67,7 @@ const Projects = () => {
             <div className="mt-4">
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
-                href="https://shahbaz-chi.vercel.app/contact"
+                href="/contact"
               >
                 Contact us
               </a>
@@ -92,7 +92,7 @@ const Projects = () => {
             <div className="mt-4">
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
-                href="https://shahbaz-chi.vercel.app/contact"
+                href="/contact"
               >
                 Contact us
               </a>

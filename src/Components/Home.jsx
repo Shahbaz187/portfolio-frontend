@@ -52,7 +52,7 @@ const Home = () => {
           </a>
           <a
             className="btn-shadow rounded-xl bg-black px-6 py-2 font-semibold text-white lg:text-xl"
-            href="https://shahbaz-chi.vercel.app/about"
+            href="/about"
           >
             About ME
           </a>

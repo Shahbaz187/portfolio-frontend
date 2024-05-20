@@ -52,7 +52,7 @@ const About = () => {
         <motion.div variants={fadeInIp} className="mt-4">
           <a
             className="btn-shadow rounded-xl bg-black px-6  py-2 font-semibold text-white lg:text-xl"
-            href="/project"
+            href="https://shahbaz-chi.vercel.app/project"
           >
             My Projects
           </a>

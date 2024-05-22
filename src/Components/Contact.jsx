@@ -153,7 +153,7 @@ const handleInp = (e) => {
             </motion.div>
             <motion.div variants={fadeInIp} className="w-full p-2">
               <button className="btn-shadow rounded-xl bg-black px-6  py-2 font-semibold text-white lg:text-xl">
-                Button
+                Send
               </button>
             </motion.div>
             <motion.div

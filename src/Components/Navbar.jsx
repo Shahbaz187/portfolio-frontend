@@ -34,52 +34,84 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/about">
+          <NavLink
+            className="nav-link font-bold hover:after:w-full"
+            to="/about"
+          >
             About
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/project">
+          <NavLink
+            className="nav-link font-bold hover:after:w-full"
+            to="/project"
+          >
             Projects
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/reviews">
+          <NavLink
+            className="nav-link font-bold hover:after:w-full"
+            to="/reviews"
+          >
             Reviews
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/contact">
+          <NavLink
+            className="nav-link font-bold hover:after:w-full"
+            to="/contact"
+          >
             Contact
           </NavLink>
         </li>
       </ul>
       <ul
         ref={navLinks}
-        className="absolute -top-[700px] z-50 left-0 w-full space-y-3  bg-black py-4 text-center md:hidden"
+        className="absolute -top-[700px] left-0 z-50 w-full space-y-3  bg-black py-4 text-center md:hidden"
       >
-        <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/">
+        <li onClick={navShow}>
+          <NavLink
+            onClick={() => setNavBtns(false)}
+            className="nav-link font-bold hover:after:w-full"
+            to="/"
+          >
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/about">
+        <li onClick={navShow}>
+          <NavLink
+            onClick={() => setNavBtns(false)}
+            className="nav-link font-bold hover:after:w-full"
+            to="/about"
+          >
             About
           </NavLink>
         </li>
-        <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/project">
+        <li onClick={navShow}>
+          <NavLink
+            onClick={() => setNavBtns(false)}
+            className="nav-link font-bold hover:after:w-full"
+            to="/project"
+          >
             Projects
           </NavLink>
         </li>
-        <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/reviews">
+        <li onClick={navShow}>
+          <NavLink
+            onClick={() => setNavBtns(false)}
+            className="nav-link font-bold hover:after:w-full"
+            to="/reviews"
+          >
             Reviews
           </NavLink>
         </li>
-        <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/contact">
+        <li onClick={navShow}>
+          <NavLink
+            onClick={() => setNavBtns(false)}
+            className="nav-link font-bold hover:after:w-full"
+            to="/contact"
+          >
             Contact
           </NavLink>
         </li>

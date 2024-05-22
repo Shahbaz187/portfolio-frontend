@@ -82,7 +82,7 @@ const Navbar = () => {
         <li onClick={navShow}>
           <NavLink
             onClick={() => setNavBtns(false)}
-            className="nav-link font-bold hover:after:w-full"
+            className="lg:nav-link font-bold hover:after:w-full"
             to="/about"
           >
             About
@@ -91,7 +91,7 @@ const Navbar = () => {
         <li onClick={navShow}>
           <NavLink
             onClick={() => setNavBtns(false)}
-            className="nav-link font-bold hover:after:w-full"
+            className="lg:nav-link font-bold hover:after:w-full"
             to="/project"
           >
             Projects
@@ -100,7 +100,7 @@ const Navbar = () => {
         <li onClick={navShow}>
           <NavLink
             onClick={() => setNavBtns(false)}
-            className="nav-link font-bold hover:after:w-full"
+            className="lg:nav-link font-bold hover:after:w-full"
             to="/reviews"
           >
             Reviews
@@ -109,7 +109,7 @@ const Navbar = () => {
         <li onClick={navShow}>
           <NavLink
             onClick={() => setNavBtns(false)}
-            className="nav-link font-bold hover:after:w-full"
+            className="lg:nav-link font-bold hover:after:w-full"
             to="/contact"
           >
             Contact

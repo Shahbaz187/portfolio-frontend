@@ -1,10 +1,6 @@
 import React from 'react'
-import Home from "./Home";
 import Navbar from "./Navbar";
-import About from "./About";
 import Contact from "./Contact";
-import Reviews from "./Reviews";
-import Projects from "./Projects";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalf } from "react-icons/fa";
 import { animate, motion } from "framer-motion";
@@ -84,13 +80,13 @@ const Landingpage = () => {
       </section>
 
       {/* ------- ABOUT ------- */}
-      <section className="container flex  h-[calc(100vh-80px)] w-full flex-col items-center justify-between gap-10 py-14 pb-14 md:flex-row">
+      <section className="container flex  w-full flex-col items-center justify-between gap-10 py-14 pb-14 md:flex-row">
         <motion.div
           variants={fadeInIp}
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.3 }}
-          className="flex-1"
+          className="flex-1 hidden md:block"
         >
           <img
             src="/avatar1.png"

@@ -30,23 +30,23 @@ const Projects = () => {
               <img
                 alt="content"
                 class="h-full w-full object-cover object-center"
-                src="https://sgwebpartners.com/wp-content/uploads/2019/04/woocommerce-wholesale-storm-creek-983x553.jpg"
+                src="https://aceternity.com/images/products/thumbnails/new/renderwork.png"
               />
             </div>
             <h2 class="title-font mt-5 text-xl font-medium">
-              E Commerce Website
+              Renderwork Studio
             </h2>
             <p class="mt-2 text-base leading-relaxed">
-              I built EcoMart, an e-commerce site for eco-friendly products.
-              Features: advanced search, detailed descriptions, secure payments,
-              and a vendor dashboard
+              Next.js responsive website for Renderwork Studio, featuring 3D
+              renderings and visual designs, enhancing brand identity and
+              product appeal for clients.
             </p>
             <div className="mt-4">
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
-                href="/contact"
+                href="https://renderwork.studio"
               >
-                Contact us
+                View Project
               </a>
             </div>
           </motion.div>
@@ -55,21 +55,23 @@ const Projects = () => {
               <img
                 alt="content"
                 class="h-full w-full object-cover object-center"
-                src="https://img.freepik.com/free-vector/landing-page-template-with-smartphone_23-2148346832.jpg"
+                src="https://www.aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png"
               />
             </div>
-            <h2 class="title-font mt-5 text-xl font-medium">Landing Page</h2>
+            <h2 class="title-font mt-5 text-xl font-medium">
+              Golden Bells Academy
+            </h2>
             <p class="mt-2 text-base leading-relaxed">
-              I developed EcoMart, an eco-friendly e-commerce platform. Features
-              advanced search, detailed descriptions, secure payments. Join us
-              in supporting sustainable living.
+              Created a responsive website for Golden Bells Academy using HTML,
+              CSS, JavaScript, and Bootstrap, featuring comprehensive info and
+              an online learning platform.
             </p>
             <div className="mt-4">
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
-                href="/contact"
+                href="https://goldenbellsacademy.com"
               >
-                Contact us
+                View Project
               </a>
             </div>
           </motion.div>
@@ -78,23 +80,21 @@ const Projects = () => {
               <img
                 alt="content"
                 class="h-full w-full object-cover object-center"
-                src="https://i.ytimg.com/vi/oMC6gyTWtic/maxresdefault.jpg"
+                src="https://aceternity.com/images/products/thumbnails/new/algochurn.png"
               />
             </div>
-            <h2 class="title-font mt-5 text-xl font-medium">
-              Portfolio Website
-            </h2>
+            <h2 class="title-font mt-5 text-xl font-medium">Algochurn</h2>
             <p class="mt-2 text-base leading-relaxed">
-              Developed a sleek portfolio website showcasing expertise and
-              projects. Designed user-friendly interface for optimal navigation
-              and seamless experience
+              A MERN website offering free practice for technical interviews
+              with coding playgrounds and real-world questions on data
+              structures and algorithms.
             </p>
             <div className="mt-4">
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
-                href="/contact"
+                href="https://www.algochurn.com/"
               >
-                Contact us
+                View Project
               </a>
             </div>
           </motion.div>

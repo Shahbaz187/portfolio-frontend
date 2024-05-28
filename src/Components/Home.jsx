@@ -45,13 +45,13 @@ const Home = () => {
         </motion.p>
         <motion.div variants={fadeInIp} className="mt-3 flex gap-10">
           <a
-            className="btn-shadow rounded-xl bg-black px-6 py-2 font-semibold text-white lg:text-xl"
+            className="btn-shadow rounded-xl bg-black px-6 text-nowrap py-2 font-semibold text-white lg:text-xl"
             href="https://www.peopleperhour.com/freelancer/video-photo-audio/shahbaz-ansari-web-devloper-html-css-javascript-zzxzqzyn"
           >
             Hire Me
           </a>
           <a
-            className="btn-shadow rounded-xl bg-black px-6 py-2 font-semibold text-white lg:text-xl"
+            className="btn-shadow rounded-xl bg-black px-6 text-nowrap py-2 font-semibold text-white lg:text-xl"
             href="/about"
           >
             About ME

@@ -8,12 +8,13 @@ import Contact from './Components/Contact';
 import Reviews from './Components/Reviews';
 import Projects from './Components/Projects';
 import { ToastContainer } from 'react-toastify';
+import Landingpage from './Components/Landingpage';
 
 function App() {
   const route = createBrowserRouter([
     {
     path: "/",
-    element: <><Navbar/> <Home/></>
+    element: <Landingpage/>
     },
     {
     path: "/about",

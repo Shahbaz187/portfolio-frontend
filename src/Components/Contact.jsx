@@ -53,7 +53,7 @@ const handleInp = (e) => {
 };
 
   return (
-    <section className="body-font relative text-gray-600">
+    <section className="body-font relative text-gray-600 lg:overflow-hidden">
       <motion.div
         variants={fadeInIp}
         initial="hidden"

@@ -20,7 +20,7 @@ const fadeInIp = {
 
 const Reviews = () => {
   return (
-    <section class="body-font text-gray-600" >
+    <section class="body-font text-gray-600 lg:overflow-hidden" >
       <motion.div initial="hidden" animate="show" variants={fadeInIp} class="container mx-auto px-5 py-24">
         <motion.h1 variants={fadeInIp} class="title-font mb-12 text-center sm:text-4xl md:text-5xl text-3xl font-medium text-gray-900">
           Clients Reviews

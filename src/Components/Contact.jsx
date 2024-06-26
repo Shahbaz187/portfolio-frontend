@@ -5,7 +5,9 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import "react-toastify/dist/ReactToastify.css";
 import { useForm } from "react-hook-form";
-
+import { MdEmail } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa";
+import { PiInstagramLogoFill } from "react-icons/pi";
 
 const fadeInIp = {
   hidden: {
@@ -73,15 +75,18 @@ const handleInp = (e) => {
         </motion.div>
         <div className="mx-auto md:w-2/3 lg:w-1/2">
           <motion.form
-            onSubmit={handleSubmit(onSubmit)} 
-            variants={fadeInIp} 
+            onSubmit={handleSubmit(onSubmit)}
+            variants={fadeInIp}
             initial="hidden"
             animate="show"
             className="-m-2 flex flex-wrap"
           >
             <motion.div variants={fadeInIp} className="w-1/2 p-2">
               <div className="relative">
-                <label htmlFor="name" className="text-sm leading-7 text-gray-600">
+                <label
+                  htmlFor="name"
+                  className="text-sm leading-7 text-gray-600"
+                >
                   Name
                 </label>
                 <input
@@ -103,7 +108,10 @@ const handleInp = (e) => {
             </motion.div>
             <motion.div variants={fadeInIp} className="w-1/2 p-2">
               <motion.div variants={fadeInIp} className="relative">
-                <label htmlFor="email" className="text-sm leading-7 text-gray-600">
+                <label
+                  htmlFor="email"
+                  className="text-sm leading-7 text-gray-600"
+                >
                   Email
                 </label>
                 <input
@@ -160,14 +168,25 @@ const handleInp = (e) => {
               variants={fadeInIp}
               className="mt-8 w-full border-t border-gray-200 p-2 pt-8 text-center"
             >
-              <a
-                className="text-blue-500"
-                href="mailto:shahbazansari8199@email.com"
-              >
-                shahbazansari8199@email.com
-              </a>
-              <p className="my-5 leading-normal">
-                Web Devloper
+              <div className="flex justify-center gap-4 items-center border-b border-gray-200 pb-6">
+                <a href="mailto:shahbazansari8199@email.com"
+                  target='_blank'
+                >
+                  <MdEmail className="text-black transition duration-100 hover:text-gray-700" size={30} />
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61561335181043"
+                  target="_blank"
+                >
+                  <FaFacebook className="text-black transition duration-100 hover:text-gray-700" size={29} />
+                </a>
+                <a href="https://www.instagram.com/shahbaz_ansari_1807/"
+                  target='_blank'
+                >
+                  <PiInstagramLogoFill className="text-black transition duration-100 hover:text-gray-700" size={29} />
+                </a>
+              </div>
+              <p className="my-5 leading-normal text-blue-400 font-medium">
+                MERN Stack Web Devloper
                 <br />
               </p>
             </motion.div>

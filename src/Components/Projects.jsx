@@ -45,6 +45,7 @@ const Projects = () => {
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
                 href="https://renderwork.studio"
+                target="_blank"
               >
                 View Project
               </a>
@@ -70,6 +71,7 @@ const Projects = () => {
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
                 href="https://goldenbellsacademy.com"
+                target="_blank"
               >
                 View Project
               </a>
@@ -93,6 +95,7 @@ const Projects = () => {
               <a
                 className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
                 href="https://www.algochurn.com/"
+                target="_blank"
               >
                 View Project
               </a>

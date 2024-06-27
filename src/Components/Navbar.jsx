@@ -25,17 +25,30 @@ const Navbar = () => {
       className="container flex h-20 max-w-full items-center justify-between bg-black md:rounded-b-[5rem] md:px-12 lg:px-14"
     >
       <div className="logo">
+        <a href="/">
         <img src="/logo.png" className="w-14" alt="LOGO" />
+        </a>
       </div>
       <ul className="hidden gap-5 text-lg md:flex lg:gap-7 lg:text-xl">
         <li>
-          <NavLink className="nav-link font-bold hover:after:w-full" to="/">
+          <NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "nav-link font-bold after:w-full"
+                : "nav-link font-bold hover:after:w-full"
+            }
+            to="/"
+          >
             Home
           </NavLink>
         </li>
         <li>
           <NavLink
-            className="nav-link font-bold hover:after:w-full"
+            className={({ isActive }) =>
+              isActive
+                ? "nav-link font-bold after:w-full"
+                : "nav-link font-bold hover:after:w-full"
+            }
             to="/about"
           >
             About
@@ -43,7 +56,11 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            className="nav-link font-bold hover:after:w-full"
+            className={({ isActive }) =>
+              isActive
+                ? "nav-link font-bold after:w-full"
+                : "nav-link font-bold hover:after:w-full"
+            }
             to="/project"
           >
             Projects
@@ -51,15 +68,23 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            className="nav-link font-bold hover:after:w-full"
-            to="/reviews"
+            className={({ isActive }) =>
+              isActive
+                ? "nav-link font-bold after:w-full"
+                : "nav-link font-bold hover:after:w-full"
+            }
+            to={'/reviews'}
           >
             Reviews
           </NavLink>
         </li>
         <li>
           <NavLink
-            className="nav-link font-bold hover:after:w-full"
+            className={({ isActive }) =>
+              isActive
+                ? "nav-link font-bold after:w-full"
+                : "nav-link font-bold hover:after:w-full"
+            }
             to="/contact"
           >
             Contact

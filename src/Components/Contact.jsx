@@ -8,6 +8,7 @@ import { useForm } from "react-hook-form";
 import { MdEmail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { PiInstagramLogoFill } from "react-icons/pi";
+import { FaLinkedin } from "react-icons/fa";
 
 const fadeInIp = {
   hidden: {
@@ -60,7 +61,7 @@ const handleInp = (e) => {
         variants={fadeInIp}
         initial="hidden"
         animate="show"
-        className="container mx-auto px-5 py-24"
+        className="container mx-auto px-5 py-20"
       >
         <motion.div
           variants={fadeInIp}
@@ -168,25 +169,45 @@ const handleInp = (e) => {
               variants={fadeInIp}
               className="mt-8 w-full border-t border-gray-200 p-2 pt-8 text-center"
             >
-              <div className="flex justify-center gap-4 items-center border-b border-gray-200 pb-6">
-                <a href="mailto:shahbazansari8199@email.com"
-                  target='_blank'
-                >
-                  <MdEmail className="text-black transition duration-100 hover:text-gray-700" size={30} />
+              <div className="flex items-center justify-center gap-4 border-b border-gray-200 pb-6">
+                <a href="mailto:shahbazansari8199@email.com" target="_blank">
+                  <MdEmail
+                    className="text-black transition duration-100 hover:text-gray-700"
+                    size={30}
+                  />
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61561335181043"
+                <a
+                  href="https://www.linkedin.com/in/shahbaz-ansari-775478316/"
                   target="_blank"
                 >
-                  <FaFacebook className="text-black transition duration-100 hover:text-gray-700" size={29} />
+                  <FaLinkedin
+                    className="text-black transition duration-100 hover:text-gray-700"
+                    size={29}
+                  />
                 </a>
-                <a href="https://www.instagram.com/shahbaz_ansari_1807/"
-                  target='_blank'
+                <a
+                  href="https://www.facebook.com/profile.php?id=61561335181043"
+                  target="_blank"
                 >
-                  <PiInstagramLogoFill className="text-black transition duration-100 hover:text-gray-700" size={29} />
+                  <FaFacebook
+                    className="text-black transition duration-100 hover:text-gray-700"
+                    size={29}
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/shahbaz_ansari_1807/"
+                  target="_blank"
+                >
+                  <PiInstagramLogoFill
+                    className="text-black transition duration-100 hover:text-gray-700"
+                    size={29}
+                  />
                 </a>
               </div>
-              <p className="my-5 leading-normal text-blue-400 font-medium">
+              <p className="my-5 font-medium leading-normal text-blue-400">
+                <a href="">
                 MERN Stack Web Devloper
+                </a>
                 <br />
               </p>
             </motion.div>

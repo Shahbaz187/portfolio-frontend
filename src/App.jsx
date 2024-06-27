@@ -9,12 +9,17 @@ import Reviews from './Components/Reviews';
 import Projects from './Components/Projects';
 import { ToastContainer } from 'react-toastify';
 import Landingpage from './Components/Landingpage';
+import HireMe from './Components/HireMe';
 
 function App() {
   const route = createBrowserRouter([
     {
     path: "/",
     element: <Landingpage/>
+    },
+    {
+    path: "/hire_me",
+    element: <><Navbar/><HireMe/></>
     },
     {
     path: "/about",

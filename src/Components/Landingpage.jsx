@@ -53,7 +53,7 @@ const Landingpage = () => {
           <motion.div variants={fadeInIp} className="mt-3 flex gap-10">
             <a
               className="btn-shadow rounded-xl bg-black px-6 py-2 font-semibold text-white lg:text-xl"
-              href="https://www.peopleperhour.com/freelancer/video-photo-audio/shahbaz-ansari-web-devloper-html-css-javascript-zzxzqzyn"
+              href="hire_me"
             >
               Hire Me
             </a>
@@ -86,7 +86,7 @@ const Landingpage = () => {
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.3 }}
-          className="flex-1 hidden md:block"
+          className="hidden flex-1 md:block"
         >
           <img
             src="/avatar1.png"
@@ -154,6 +154,7 @@ const Landingpage = () => {
                 <a
                   className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
                   href="https://renderwork.studio"
+                  target="_blank"
                 >
                   View Project
                 </a>
@@ -179,6 +180,7 @@ const Landingpage = () => {
                 <a
                   className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
                   href="https://goldenbellsacademy.com"
+                  target="_blank"
                 >
                   View Project
                 </a>
@@ -202,6 +204,7 @@ const Landingpage = () => {
                 <a
                   className="rounded-xl bg-black px-4 py-2 font-semibold text-white"
                   href="https://www.algochurn.com/"
+                  target="_blank"
                 >
                   View Project
                 </a>

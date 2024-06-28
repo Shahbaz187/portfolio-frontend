@@ -37,7 +37,8 @@ const HireMe = () => {
           <motion.div variants={fadeInIp} class="w-full p-4 md:w-1/2">
             <a
               class="flex h-full items-center justify-center rounded bg-gray-100 p-8 transition duration-200 hover:bg-gray-200"
-              href="" target='_blank'
+              href="https://www.fiverr.com/shahbaznawaz767?up_rollout=true"
+              target="_blank"
             >
               <img
                 src="/fiverr.png"

@@ -50,3 +50,8 @@ body{
 .btn-shadow:hover{
     box-shadow: 3px 3px 0 rgb(221, 115, 115);
 }
+@media (max-height: 700px) {
+  .about-section{
+    margin-top: 50px !important;
+  }
+}

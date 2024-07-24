@@ -80,7 +80,7 @@ const Landingpage = () => {
       </section>
 
       {/* ------- ABOUT ------- */}
-      <section className="container flex  w-full flex-col items-center justify-between gap-10 py-14 pb-14 md:flex-row">
+      <section className="container about-section flex  w-full flex-col items-center justify-between gap-10 py-14 pb-14 md:flex-row">
         <motion.div
           variants={fadeInIp}
           initial={{ opacity: 0, x: -100 }}

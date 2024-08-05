@@ -98,7 +98,7 @@ const Navbar = () => {
         <li onClick={navShow}>
           <NavLink
             onClick={() => setNavBtns(false)}
-            className="nav-link font-bold hover:after:w-full"
+            className="lg:nav-link font-bold hover:after:w-full"
             to="/"
           >
             Home
